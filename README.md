@@ -4,9 +4,9 @@ Consider the following initial-boundary-value problem for the heat equation:
 ```math
 \begin{align}
 	\frac{\partial u}{\partial t} &= a\frac{\partial^2 u}{\partial x^2},&& \mathrm{in}\ (0,1)\times (0,T], \\
-	u(0,t), &= 0 && t\in [0,T],\\
-	u(1,t), &= 0 && t\in [0,T],\\	
-	 u_0(x), &= \sin(\pi x) , && x\in [0,1].
+	u(0,t) &= 0 && t\in [0,T],\\
+	u(1,t) &= 0 && t\in [0,T],\\	
+	 u_0(x) &= \sin(\pi x) , && x\in [0,1].
 \end{align}
 ```
 
